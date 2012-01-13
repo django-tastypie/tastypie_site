@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tastypie - RESTful APIs for Django</title>
+    <link rel="stylesheet" href="default.css" type="text/css">
+</head>
+<body>
+    <div class="page_wrapper">
+        <header>
+            <hr class="top-rule">
+            <h1>Tastypie</h1>
+            <hr class="bottom-rule">
+        </header>
+
+        <section id="content">
+            <div id="main">
+                <section class="what-is">
+                    <h2>What Is Tastypie?</h2>
+
+                    <p>
+                        Tastypie is an webservice API framework for Django. It
+                        provides a convenient, yet powerful and highly customizable,
+                        abstraction for creating REST-style interfaces.
+                    </p>
+
+                    <p>
+                        If you want, Tastypie makes exposing your models easy, but
+                        gives you full control over what you expose, letting you
+                        abstract away the database as much as needed. Tastypie also
+                        makes it easy to integrate with <strong>non-ORM</strong>
+                        data sources.
+                    </p>
+
+                    <p>
+                        Tastypie is <em>BSD licensed</em> &amp; plays nicely with
+                        third-party apps without needing to modify their sources.
+                    </p>
+
+                    <dl>
+                        <dt>Features:</dt>
+                        <dd>Full <code>GET/POST/PUT/DELETE/PATCH</code> support</dd>
+                        <dd>Reasonable defaults</dd>
+                        <dd>Designed to be extended at every turn</dd>
+                        <dd>A variety of serialization formats (JSON/XML/YAML/bplist)</dd>
+                        <dd><a href="http://en.wikipedia.org/wiki/HATEOAS">HATEOAS</a> by default</dd>
+                        <dd>Well-tested &amp; well-documented</dd>
+                    </dl>
+                </section>
+
+                <hr>
+
+                <section id="getting-started">
+                    <h2>Getting Started</h2>
+
+                    <ol>
+                        <li>Install using Pip: <code>pip install django-tastypie</code></li>
+                        <li>Add to installed apps: <code>INSTALLED_APPS += ['tastypie']</code></li>
+                        <li>Syncdb: <code>./manage.py syncdb</code></li>
+                        <li>Create your resource(s)</li>
+                        <li>Hook them up in the URLconf</li>
+                    </ol>
+                </section>
+
+                <hr>
+
+                <section id="community">
+                    <h2>Community</h2>
+
+                    <p>
+                        There is a
+                        <a href="http://groups.google.com/group/django-tastypie/">mailing list</a>
+                        available for general discussion.
+                    </p>
+
+                    <p>
+                        For those craving real, human interaction, there is also an IRC
+                        channel (<code>#tastypie</code> on <code>irc.freenode.net</code>).
+                    </p>
+
+                    <p>
+                        Finally, if you find a bug or would like to request a feature,
+                        please submit an
+                        <a href="http://github.com/toastdriven/django-tastypie/issues">issue</a>.
+                    </p>
+                </section>
+            </div>
+
+            <div id="sidebar">
+                <section id="docs">
+                    <h3><a href="http://django-tastypie.readthedocs.org/en/latest/index.html">Documentation</a></h3>
+
+                    <p>
+                        <strong>Current version:</strong> 0.9.11<br>
+                        Graciously hosted by<br>
+                        <a href="http://readthedocs.org/">Read The Docs</a>
+                    </p>
+                </section>
+            </div>
+
+            <div class="clearboth">&nbsp;</div>
+        </section>
+
+        <footer>
+            <div class="copyright">&copy; 2010&ndash;2012 &mdash; Daniel Lindsley</div>
+            <div class="pixels">Made pretty by <a href="http://juliaelman.com/">Julia Elman</a></div>
+        </footer>
+    </div>
+</body>
+</html>
